@@ -3,3 +3,60 @@
 
 # Ada Library Information
 *.ali
+# Створено за допомогою https://www.gitignore.io/api/osx,windows
+# Редагувати на https://www.gitignore.io/?templates=osx,windows
+
+### OSX ###
+# Загальні
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ікона повинна закінчуватися двома \ t
+Значок
+
+# Мініатюри
+._ *
+
+# Файли, які можуть з'явитися в корені тома
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Каталоги потенційно створюються на віддаленому ресурсі AFP
+.AppleDB
+.AppleDesktop
+Папка кошика мережі
+Тимчасові елементи
+.apdisk
+
+### Windows ###
+# Файли кешу мініатюр Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Дамп-файл
+* .stackdump
+
+# Файл конфігурації папки
+[Dd] esktop.ini
+
+# Кошик, що використовується на файлі
+$ RECYCLE.BIN /
+
+# Файли установника Windows
+*.таксі
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Комбінації клавіш Windows
+* .lnk
+
+# Кінець https://www.gitignore.io/api/osx,windows
